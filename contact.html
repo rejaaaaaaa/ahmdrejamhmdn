@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.Reja Mahmudin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #282c34;
+            padding: 1em;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #61dafb;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        div {
+            background-color: #fff;
+            padding: 2em;
+            margin: 2em auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin: 0.5em 0;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            max-width: 600px;
+            padding: 0.5em;
+            margin: 0.5em 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #61dafb;
+            color: #fff;
+            border: none;
+            padding: 0.7em 1.5em;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #4fa3d2;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 1em 0;
+        }
+
+        footer {
+            background-color: #282c34;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About me</a>
+        <a href="Galeri.html">Galeri</a> 
+    </nav>
+
+    <hr />
+
+    <div>
+        <h1>Contact Me</h1>
+        <form>
+            <label for="Nama">Nama</label>
+            <input type="text" id="Nama" name="Nama" placeholder="Nama Lengkap"/>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Alamat Email"/>
+            
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" placeholder="Tulis pesan anda..." rows="4"></textarea>
+            
+            <input type="submit" value="Kirim" />
+        </form>
+    </div>
+
+    <hr>
+    <footer>
+        <p>Copyright &copy; 2024 A.Reja Mahmudin.</p>
+    </footer>
+</body>
+</html>
